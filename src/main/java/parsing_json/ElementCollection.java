@@ -9,15 +9,14 @@ import java.util.regex.Pattern;
 public class ElementCollection extends ArrayList<Element> {
 
 
+
     public Element findByAtomicNumber(int atomic_number) {
 
         for(Element e: this){
-            if(e.getNumber() == atomic_number){
+            if(e.getNumber() == atomic_number)
                 return e;
-            }
         }
-        return null;
-
+    return null;
         //PseudoCode
         //Loop through Arraylist and , call method getNumber
         //this references the array object
@@ -27,24 +26,23 @@ public class ElementCollection extends ArrayList<Element> {
     public Element findByName(String name) {
 
         for(Element e: this){
-            if(e.getName().equals(name)){
+            if(e.getName().equals(name))
                 return e;
-            }
         }
-
         return null;
     }
 
     public ElementCollection where(String fieldName, Object value) {
         //TODO use field name? I initially had it checking for fieldName in matcher
+        //Tried to use (?=field) in my pattern but didn't work, still nullpointexceptioin
 
         ElementCollection elementCollection = new ElementCollection();
 
-        Pattern checkNameRegex = Pattern.compile("(?=field)");
+        Pattern checkNameRegex = Pattern.compile("(?=field)" + fieldName);
         Matcher regexNameMatcher;
 
         Method[] allMethods = Element.class.getMethods();
-        Method method = null;
+        Method method = null;//get a nullpointexception because of <-
 
         for(Method m : allMethods){
             regexNameMatcher = checkNameRegex.matcher(m.getName());
@@ -52,22 +50,18 @@ public class ElementCollection extends ArrayList<Element> {
                 method = m;
             }
         }
-
-
         try{
             //states that might throw exceptions
             for(Element e: this){
                 if(method.invoke(e).equals(value)){
                     elementCollection.add(e);
                 }
-
             }
             //allMethods = elementCollection.findByName();
         }catch(Exception e){
             //handler action
             e.printStackTrace();
         }
-
         return elementCollection;
     }
 }

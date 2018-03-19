@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22dbcece-4ac7-4864-b274-0a0fc98b4fc8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/parsing_json/Element.java" afterPath="$PROJECT_DIR$/src/main/java/parsing_json/Element.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java" afterPath="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionInitializerTest.java" afterPath="$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionInitializerTest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionTest.java" afterPath="$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ElementCollection.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ElementCollection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="42" column="60" lean-forward="false" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
+            <state relative-caret-position="270">
+              <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,10 +41,42 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ElementCollectionInitializer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/users.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="periodic_table.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/periodic_table.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ElementCollectionTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
+            <state relative-caret-position="551">
               <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -73,10 +103,10 @@
         <option value="$PROJECT_DIR$/src/test/java/user_management/UserCollectionInitializerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/parsing_json/ElementTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionInitializerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/parsing_json/Element.java" />
         <option value="$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java" />
       </list>
     </option>
   </component>
@@ -86,7 +116,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="-332" />
     <option name="y" value="-1080" />
     <option name="width" value="1920" />
@@ -204,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ElementCollectionTest.findByAtomicNumber">
+  <component name="RunManager" selected="JUnit.ElementCollectionTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -420,9 +450,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ElementCollectionTest.findByAtomicNumber" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ElementTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ElementCollectionTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ElementCollectionTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ElementCollectionTest.findByAtomicNumber" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ElementTest" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.ElementCollectionTest.findByName" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.ElementTest.getMolar_heat" />
       </list>
@@ -441,14 +471,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521465803906</updated>
-      <workItem from="1521465805859" duration="19943000" />
+      <workItem from="1521465805859" duration="22767000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ElementCollectionTest - 2018.03.19 at 14h 42m 46s.xml">
-      <configuration name="ElementCollectionTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ElementCollectionTest - 2018.03.19 at 14h 47m 10s.xml">
       <configuration name="ElementCollectionTest" configurationId="JUnit" />
     </history-entry>
@@ -458,8 +485,8 @@
     <history-entry file="ElementCollectionTest - 2018.03.19 at 14h 52m 10s.xml">
       <configuration name="ElementCollectionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElementCollectionTest_findByAtomicNumber - 2018.03.19 at 13h 48m 39s.xml">
-      <configuration name="ElementCollectionTest.findByAtomicNumber" configurationId="JUnit" />
+    <history-entry file="ElementCollectionTest - 2018.03.19 at 16h 04m 35s.xml">
+      <configuration name="ElementCollectionTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ElementCollectionTest_findByAtomicNumber - 2018.03.19 at 15h 03m 55s.xml">
       <configuration name="ElementCollectionTest.findByAtomicNumber" configurationId="JUnit" />
@@ -470,19 +497,21 @@
     <history-entry file="ElementCollectionTest_findByAtomicNumber - 2018.03.19 at 15h 19m 59s.xml">
       <configuration name="ElementCollectionTest.findByAtomicNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElementCollectionTest_findByName - 2018.03.19 at 13h 48m 44s.xml">
-      <configuration name="ElementCollectionTest.findByName" configurationId="JUnit" />
+    <history-entry file="ElementCollectionTest_findByAtomicNumber - 2018.03.19 at 15h 34m 52s.xml">
+      <configuration name="ElementCollectionTest.findByAtomicNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElementCollectionTest_findByAtomicNumber - 2018.03.19 at 15h 45m 43s.xml">
+      <configuration name="ElementCollectionTest.findByAtomicNumber" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ElementTest - 2018.03.19 at 15h 02m 17s.xml">
       <configuration name="ElementTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19943000" />
+    <option name="totallyTimeSpent" value="22767000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-332" y="-1080" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
+    <frame x="-332" y="-1080" width="1920" height="1080" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -492,9 +521,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38530287" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16453674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -552,14 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/users.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionInitializerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -567,22 +588,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/periodic_table.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,9 +677,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
+        <state relative-caret-position="551">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -682,10 +697,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/users.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="42" column="60" lean-forward="false" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/periodic_table.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
