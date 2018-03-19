@@ -135,50 +135,5 @@ public class Element {
     public ArrayList<Integer> getShells() {
         return shells;
     }
+
 }
-
-//    String hydrogen, String colorless_gas, double v, double v1, String diatomic_nonmetal, String colorless, double v2, String henry_cavendish, double v3, double v4, String antoine_lavoisier, int i, int i1, String gas, String s, String s1, String s2, String h, int i2, int i3, ArrayList<Integer> integers
-///    this.hydrogen = hydrogen;
-//    this.colorless_gas = colorless_gas;
-//    this.v = v;
-//    this.v=v1;
-//    this.diatomic_nonmetal= diatomic_nonmetal;
-//    this.colorless = colorless;
-//    this.v2=v2;
-//    this.henry_cavendish=henry_cavendish;
-//    this.v3=v3;
-//    this.v4=v4;
-//    this.antoine_lavoisier=antoine_lavoisier;
-//    this.i=i;
-//    this.i1=i1;
-//    this.gas=gas;
-//    this.s=s;
-//    this.s1=s1;
-//    this.s2=s2;
-//    this.h=h;
-//    this.i2=i2;
-//    this.i3=i3;
-//    this.integers = new ArrayList<>();
-
-//    private String hydrogen;
-//    private String colorless_gas;
-//    private double v;
-//    private double v1;
-//    private String diatomic_nonmetal;
-//    private String colorless;
-//    private double v2;
-//    private String henry_cavendish;
-//    private double v3;
-//    private double v4;
-//    private String antoine_lavoisier;
-//    private int i;
-//    private int i1;
-//    private String gas;
-//    private String s;
-//    private String s1;
-//    private String s2;
-//    private String h;
-//    private int i2;
-//    private int i3;
-//    private ArrayList<Integer> integers;
-//    private String named_by;
