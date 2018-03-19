@@ -42,7 +42,7 @@ public class ElementCollection extends ArrayList<Element> {
         Matcher regexNameMatcher;
 
         Method[] allMethods = Element.class.getMethods();
-        Method method = null;//get a nullpointexception because of <-
+        Method method = null;//get a nullpointexception because of <- ??
 
         for(Method m : allMethods){
             regexNameMatcher = checkNameRegex.matcher(m.getName());
