@@ -16,9 +16,9 @@ public class ElementCollectionInitializer {
 
 
         try {
-            Elements[] elements = gson.fromJson(new FileReader("/Users/katricewilliams-dredden/Dev/JavaAssessment3/src/main/resources/periodic_table.json")) ;
+            ArrayList<Element> elements = gson.fromJson(new FileReader("/Users/katricewilliams-dredden/Dev/JavaAssessment3/src/main/resources/periodic_table.json")) ;
             ElementCollection elementCollection = new ElementCollection();
-            elementCollection.addAll(Arrays.asList(elements));
+            elementCollection.addAll(elements);
 
             return elementCollection;
         }catch (FileNotFoundException e){
@@ -29,4 +29,5 @@ public class ElementCollectionInitializer {
         return null;
     }
 }
-//Arrays.asList(elements)
+//PseudoCode
+//tried importing GSON and even adding depending manually to pom file. Did not work. 
